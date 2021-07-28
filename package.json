@@ -1,0 +1,37 @@
+{
+  "name": "toramaru",
+  "version": "1.0.0",
+  "description": "A discord bot that joins your stage channel and sings anime songs 24/7.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retraigo/toramaru.git"
+  },
+  "keywords": [
+    "toramaru",
+    "discord",
+    "\"music",
+    "bot\"",
+    "\"stage",
+    "channel\"",
+    "\"discord",
+    "bot\""
+  ],
+  "author": "NeTT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retraigo/toramaru/issues"
+  },
+  "homepage": "https://github.com/retraigo/toramaru#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.5.5",
+    "discord.js": "^13.0.0-dev.5e433b5.1627473836",
+    "node-fetch": "^2.6.1",
+    "sodium": "^3.0.2",
+    "ytdl-core": "^4.9.0"
+  }
+}
